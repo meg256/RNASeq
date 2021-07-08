@@ -31,10 +31,7 @@ ggsave("PCA_100.png")
 ###########################################
 dds<-DESeq(dds)
 
-dds$Code <- factor(dds$Code, levels=c("wt","mu")
+dds$Code <- factor(dds$Code, levels=c("wt","mu"))
                    
-                   write.table(counts(dds,normalized=TRUE),file='Part1_normCounts.txt',sep="\t",row.names=TRUE,col.names=TRUE)
-                   
-                   resultsNames(dds)
-                   
-                   res<-results(dds,name="Genotype
+write.table(counts(dds,normalized=TRUE),file='Part1_normCounts.txt',sep="\t",row.names=TRUE,col.names=TRUE)
+ 
