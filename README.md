@@ -47,6 +47,7 @@ DESeq2: differential expression analysis from raw read counts. https://bioconduc
 rMATS: differential alternative splicing. http://rnaseq-mats.sourceforge.net/rmatsdockerbeta/ <b>(in progress) </b>
 
 <i>CLUSTERING AND FUNCTIONAL ANALYSIS</i>
+pathfindR: https://cran.r-project.org/web/packages/pathfindR/ <b>(in progress)</b>
 topGO: https://bioconductor.org/packages/release/bioc/html/topGO.html <b>(in progress)</b>
 clusterProfiler: https://bioconductor.org/packages/release/bioc/html/clusterProfiler.html <b>(in progress)</b>
 
